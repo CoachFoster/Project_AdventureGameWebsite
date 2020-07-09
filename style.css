@@ -1,0 +1,72 @@
+body {
+  margin: 0px;
+  background-color: mintcream;
+}
+
+.bg-header {
+  /* background image settings */
+  background-image: url("assets/mountain-bg-md.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Other basic header settings */
+  height: 250px;
+  color: whitesmoke;
+  font-size: 36pt;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pad {
+  padding: 15px;
+}
+
+.main-text {
+  width: 100%;
+  float: left;
+  font-size: 14pt;
+}
+
+.item-divs {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 128px;
+  float: left;
+  text-align: center;
+  border: 4px solid mediumaquamarine;
+  background-color: white;
+}
+
+.item-imgs {
+  height: 64px;
+}
+
+p.item-choice:hover {
+  cursor: pointer;
+  color: mediumaquamarine;
+}
+
+img.item-choice:hover {
+  cursor: pointer;
+  background-color: palegreen;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(odd) {
+  background-color: #dddddd;
+}
