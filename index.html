@@ -9,14 +9,14 @@
   <body>
     <script src="script.js"></script>
     <div class="bg-header">
-      Choose Your Own Mountain Adventure
+      Choose Your Mountain Adventure
     </div>
     <div class="main-text pad">
-    <h2>
-    Welcome to the North Georgia Mountain Adventure Game
-    </h2>
-    <p>You are visiting Blue Ridge, Georgia. You decide to go for an evening hike alone in the mountains.<br/>
-    You can pick one item to take with you. What do you choose?</p>
+      <h2>
+      Welcome to the North Georgia Mountain Adventure Game
+      </h2>
+      <p>You are visiting Blue Ridge, Georgia. You decide to go for an evening hike alone in the mountains.<br/>
+      You can pick one item to take with you. What do you choose?</p>
     </div>
     <div class="item-divs pad" style="margin-left: 15px;">
       <img src="assets/map_with_compass.png" alt="Map" class="item-imgs item-choice"; onclick="chooseItem('map');"/>
@@ -40,6 +40,7 @@
     </div>
     <div class="main-text pad">
       <p id="itemChoice"></p>
+      <a href="start.html" target="_self" class="game-button" onclick="return checkItem();">Continue ></a>
     </div>
   </body>
 </html>
